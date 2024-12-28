@@ -22,7 +22,7 @@ Note - this is not an official Fender repository, I am not claiming copyright/tr
   - `config.arm64_v8a.apk` contains multiple lib\*.so files
     - Skimmed .so's in [Ghidra](https://ghidra-sre.org/) ...
     - `libmustangdevice.so` uses lz4 & png functions, has protocol buffer code, imports `libucnet.so` 
-       - extracted protobufs to [protobuf](./protobuf) using [schdub/protodec](`Fender Tone_4.0.5.103596_APKPure.xapk`)
+       - extracted protobufs to [protobuf](./protobuf) using [schdub/protodec](https://github.com/schdub/protodec)
        - based on a quick skim this is different to the [LT AMP series](https://github.com/brentmaxwell/LtAmp/blob/main/Schema/protobuf/) but has some similarities
     - Most of the other .so files appear to be C libraries with JNI bindings and nothing relevant. Note libucnet is likely an implementation of the PreSonus UCNET universal network control protocol.
 
