@@ -24,6 +24,7 @@ Note - this is not an official Fender repository, I am not claiming copyright/tr
     - `libmustangdevice.so` uses lz4 & png functions, has protocol buffer code, imports `libucnet.so` 
        - extracted protobufs to [protobuf](./protobuf) using [schdub/protodec](`Fender Tone_4.0.5.103596_APKPure.xapk`)
        - based on a quick skim this is different to the [LT AMP series](https://github.com/brentmaxwell/LtAmp/blob/main/Schema/protobuf/) but has some similarities
+    - Most of the other .so files appear to be C libraries with JNI bindings and nothing relevant. Note libucnet is likely an implementation of the PreSonus UCNET universal network control protocol.
 
 ## Connecting via usb
 Connecting it to my linux laptop I get the following in dmesg:
@@ -45,3 +46,4 @@ There are currently [no firmware updates available](https://fendercustomersuppor
 ## references
 * https://medium.com/fender-engineering/c-desktop-application-architecture-for-digital-amplifier-connectivity-454da5c44026
 * https://github.com/brentmaxwell/LtAmp/blob/main/Docs/Protocol.md
+* https://www.presonussoftware.com/en_US/technology
