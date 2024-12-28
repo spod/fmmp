@@ -1,0 +1,8 @@
+package fendermessage.gt;
+message KeyboardSetEncoderMode {
+	enum EncoderMode {
+		MOVE_CURSOR = 0;
+		INDEX_CHARS = 1;
+	}
+	required .fendermessage.gt.KeyboardSetEncoderMode.EncoderMode mode = 1 [default = MOVE_CURSOR];
+}

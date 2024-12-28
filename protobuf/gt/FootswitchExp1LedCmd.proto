@@ -1,0 +1,18 @@
+package fendermessage.gt;
+message FootswitchExp1LedCmd {
+	enum FootswitchLedIndex {
+		FTSW_LED_EXP1_ALL = 0;
+		FTSW_LED_RED = 1;
+		FTSW_LED_GREEN = 2;
+	}
+	enum FootswitchLedOp {
+		FTSW_CLEAR_LED_CMD = 0;
+		FTSW_SET_LED_CMD = 1;
+		FTSW_BLINK_LED_CMD = 2;
+		FTSW_TEMPO_LED_CMD = 3;
+	}
+	required .fendermessage.gt.FootswitchExp1LedCmd.FootswitchLedOp cmdOp = 1;
+	required .fendermessage.gt.FootswitchExp1LedCmd.FootswitchLedIndex index = 2;
+	optional int32 blinkDuty = 3;
+	optional int32 blinkPeriod = 4;
+}

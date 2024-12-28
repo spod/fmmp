@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message PacketStartMTU {
+	required int32 numBytes = 1;
+	required int32 id = 2;
+}

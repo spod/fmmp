@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SaveViewLoadPresetName {
+	required string presetName = 1;
+}

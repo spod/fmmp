@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message FindPreviousEmptySlot {
+	required int32 slot = 1;
+}

@@ -1,0 +1,9 @@
+package fendermessage.gt;
+message NodeEntry {
+	optional string nodeId = 1;
+	optional string fenderId = 2;
+	optional bool bypass = 3;
+}
+message NodeStatus {
+	repeated .fendermessage.gt.NodeEntry nodeStatus = 1;
+}

@@ -1,0 +1,6 @@
+package fendermessage.gt;
+message FootswitchDisplay {
+	required int32 characterA = 1;
+	required int32 characterB = 2;
+	required int32 characterC = 3;
+}

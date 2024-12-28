@@ -1,0 +1,21 @@
+package fendermessage.gt;
+enum UtilityMenus {
+	NO_MENU = 0;
+	UTILITY_MENU = 1;
+	ABOUT_AMP_VIEW = 2;
+	AMP_SETTINGS_MENU = 3;
+	GLOBAL_EQ_MENU = 4;
+	LINE_OUT_CONFIG_MENU = 5;
+	EXTERNAL_FOOTSWITCH_MENU = 6;
+	EXP1_MENU = 7;
+	MGT4_MENU = 8;
+	MGT7_MENU = 9;
+	QAMODE_MENU = 10;
+	PRESET_ORG_MENU = 11;
+	GENERIC_CONFIRM_MENU = 12;
+	WIRELESS_MENU = 13;
+}
+message UtilityViewSetListIndex {
+	required int32 index = 1;
+	required .fendermessage.gt.UtilityMenus mode = 2 [default = UTILITY_MENU];
+}

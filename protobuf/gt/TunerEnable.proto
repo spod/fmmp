@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message TunerEnable {
+	required bool enable = 1;
+}

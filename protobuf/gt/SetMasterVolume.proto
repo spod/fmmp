@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SetMasterVolume {
+	optional float valueDB = 1;
+}

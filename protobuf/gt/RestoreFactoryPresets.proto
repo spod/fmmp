@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message RestoreFactoryPresets {
+	optional bool hackSoItGens = 1;
+}

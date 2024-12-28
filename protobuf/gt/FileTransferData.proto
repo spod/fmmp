@@ -1,0 +1,6 @@
+package fendermessage.gt;
+message FileTransferData {
+	required int32 seqNumber = 1;
+	required int32 id = 2;
+	required bytes data = 3;
+}

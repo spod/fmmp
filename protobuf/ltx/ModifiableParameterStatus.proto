@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message ModifiableParameterStatus {
+	optional string nodeId = 1;
+	optional string parameterId = 2;
+}

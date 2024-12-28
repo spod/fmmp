@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message ModifiableParameterRequest {
+	optional bool dummyField = 1;
+}

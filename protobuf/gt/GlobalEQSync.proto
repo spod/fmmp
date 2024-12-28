@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message GlobalEQSync {
+	required bool sync = 1;
+}

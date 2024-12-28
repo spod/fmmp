@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message BleStatusView {
+	required bool btOn = 1;
+}

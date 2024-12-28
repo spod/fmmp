@@ -1,0 +1,39 @@
+package fendermessage.gt;
+enum PacketType {
+	LOAD_PRESET = 0;
+	NODE_REPLACE = 1;
+	NODE_ADD = 2;
+	NODE_INSERT_PRE = 3;
+	NODE_MOVE = 4;
+	NODE_DELETE = 5;
+	SYNC = 6;
+	FACTORY_RESTORE = 7;
+	RESTORE_ALL_FACTORY = 8;
+	PRESET_DISPLAY = 9;
+	FIND_NEXT_VALID_PRESET = 10;
+	FIND_PREVIOUS_VALID_PRESET = 11;
+	FIND_NEXT_EMPTY_SLOT = 12;
+	FIND_PREVIOUS_EMPTY_SLOT = 13;
+	LOAD_PRESET_IF_VALID = 14;
+	SAVE_CURRENT_PRESET = 15;
+	DELETE_PRESET = 16;
+	RENAME_PRESET = 17;
+	NODE_INSERT_POST = 18;
+	TONE_SYNC = 19;
+	SAVE_TO = 20;
+	BACKUP = 21;
+	RESTORE = 22;
+	SYNC_CURRRENT_PRESET_TONE = 23;
+}
+enum PacketStatus {
+	SUCCESS = 0;
+	UNKNOWN_ERROR = 1;
+	INVALID_ID = 2;
+}
+message PacketBegin {
+	required .fendermessage.gt.PacketType packetType = 1;
+}
+message PacketEnd {
+	required .fendermessage.gt.PacketType packetType = 1;
+	required .fendermessage.gt.PacketStatus packetStatus = 2;
+}

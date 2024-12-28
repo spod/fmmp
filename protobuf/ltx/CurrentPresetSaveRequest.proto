@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message CurrentPresetSaveRequest {
+	optional string presetName = 1;
+	optional uint32 presetIndex = 2;
+}

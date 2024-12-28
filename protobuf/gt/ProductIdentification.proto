@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message ProductIdentification {
+	required string id = 1;
+}

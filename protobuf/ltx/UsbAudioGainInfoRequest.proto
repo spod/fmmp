@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message UsbAudioGainInfoRequest {
+	optional bool dummyField = 1;
+}

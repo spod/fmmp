@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SetBpm {
+	required float value = 1;
+}

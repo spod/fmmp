@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message IncrementProgressBar {
+	required int32 increment = 1;
+}

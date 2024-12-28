@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message Exp1ConfigEffectNodeId {
+	required string value = 1;
+}

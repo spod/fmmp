@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message ParameterRequest {
+	optional string nodeId = 1;
+	optional string parameterId = 2;
+}

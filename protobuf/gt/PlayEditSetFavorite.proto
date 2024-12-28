@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message PlayEditSetFavorite {
+	required bool isFavorite = 1;
+}

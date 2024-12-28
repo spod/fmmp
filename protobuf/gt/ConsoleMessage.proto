@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message ConsoleMessage {
+	required string command = 1;
+	required string argument = 2;
+}

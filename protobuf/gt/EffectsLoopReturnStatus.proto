@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message EffectsLoopReturnStatus {
+	required bool leftIsConnected = 1;
+	required bool rightIsConnected = 2;
+}

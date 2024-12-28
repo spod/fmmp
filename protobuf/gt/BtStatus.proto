@@ -1,0 +1,10 @@
+package fendermessage.gt;
+enum BtState {
+	BT_OFF = 0;
+	BLE_ON = 1;
+	BLUETOOTH_STREAMING_ON = 2;
+	BLE_AND_BLUETOOTH_STREAMING_ON = 3;
+}
+message BtStatus {
+	required .fendermessage.gt.BtState state = 1 [default = BT_OFF];
+}

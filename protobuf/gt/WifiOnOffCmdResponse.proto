@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message WifiOnOffCmdResponse {
+	required bool powerOn = 1;
+}

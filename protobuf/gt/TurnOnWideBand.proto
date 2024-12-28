@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message TurnOnWideBand {
+	required bool turnOn = 1;
+}

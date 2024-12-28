@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message Exp1ConfigVolumeSwitchRevert {
+	required bool value = 1;
+}

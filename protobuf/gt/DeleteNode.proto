@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message DeleteNode {
+	required string nodeIdToDelete = 1;
+}

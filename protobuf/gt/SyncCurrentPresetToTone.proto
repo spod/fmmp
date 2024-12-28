@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SyncCurrentPresetToTone {
+	optional bool value = 1;
+}

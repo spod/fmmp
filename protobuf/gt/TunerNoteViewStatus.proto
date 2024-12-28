@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message TunerNoteViewStatus {
+	required sint32 midiNoteNumberIndex = 1;
+	required float midiNoteNumberCents = 2;
+}

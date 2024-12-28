@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message BtStatusRequest {
+	required bool request = 1;
+}

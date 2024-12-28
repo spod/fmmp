@@ -1,0 +1,16 @@
+package fendermessage.gt;
+message IndexLed {
+	enum Action {
+		LED_CONTROL_ACTION_OFF = 0;
+		LED_CONTROL_ACTION_ON = 1;
+		LED_CONTROL_ACTION_TOGGLE = 2;
+		LED_CONTROL_ACTION_BLINK = 3;
+		LED_CONTROL_ACTION_TAP = 4;
+		LED_CONTROL_ACTION_CASCADE = 5;
+	}
+	required int32 index = 1;
+	required .fendermessage.gt.IndexLed.Action action = 2;
+	optional int32 blinkOnTimeMs = 4;
+	optional int32 blinkOffTimeMs = 5;
+	optional int32 blinkIntervalMs = 6;
+}

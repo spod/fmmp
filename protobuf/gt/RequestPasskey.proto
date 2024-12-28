@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message RequestPasskey {
+	optional bool hackSoItGens = 1;
+}

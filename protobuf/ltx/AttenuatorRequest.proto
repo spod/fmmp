@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message AttenuatorRequest {
+	optional bool dummyField = 1;
+}

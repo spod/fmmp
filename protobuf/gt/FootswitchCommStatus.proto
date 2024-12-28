@@ -1,0 +1,11 @@
+package fendermessage.gt;
+message FootswitchCommStatus {
+	enum ProductID {
+		FTSW_ID_ULT1 = 12;
+		FTSW_ID_ULT4 = 8;
+		FTSW_ID_SIMPLE = 9;
+		FTSW_ID_SWR_2BTN = 11;
+		FTSW_ID_SM1500 = 10;
+	}
+	required .fendermessage.gt.FootswitchCommStatus.ProductID ftswProductIdMsg = 1;
+}

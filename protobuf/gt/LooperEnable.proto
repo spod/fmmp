@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message LooperEnable {
+	required bool enable = 1;
+	required bool isMgt7 = 2;
+}

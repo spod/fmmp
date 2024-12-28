@@ -1,0 +1,13 @@
+package fendermessage.ltx;
+enum ErrorType {
+	UNSUPPORTED = 0;
+	FAILED = 1;
+	INVALID_PARAM = 2;
+	INVALID_NODE_ID = 3;
+	PARAM_OUT_OF_BOUNDS = 4;
+	FACTORY_RESTORE_IN_PROGRESS = 5;
+}
+message UnsupportedMessageStatus {
+	optional .fendermessage.ltx.ErrorType status = 1;
+	optional bool dummyField = 2;
+}

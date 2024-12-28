@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message ProductIdentificationRequest {
+	optional bool dummyField = 1;
+}

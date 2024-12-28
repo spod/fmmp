@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message EncoderMove {
+	required int32 ticks = 1;
+}

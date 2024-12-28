@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message SavePreset {
+	required string presetId = 1;
+	optional int64 timestamp = 2;
+}

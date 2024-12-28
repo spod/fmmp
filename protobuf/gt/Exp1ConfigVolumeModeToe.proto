@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message Exp1ConfigVolumeModeToe {
+	required float value = 1;
+}

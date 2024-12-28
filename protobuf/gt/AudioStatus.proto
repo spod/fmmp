@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message PresetEditedStatus {
+	required bool presetEdited = 1 [default = false];
+}

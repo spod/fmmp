@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message LoopbackTest {
+	optional string data = 1;
+}

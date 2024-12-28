@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message IndexString {
+	required int32 index = 1;
+	required string text = 2;
+}

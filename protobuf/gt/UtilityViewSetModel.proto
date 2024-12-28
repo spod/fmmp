@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message UtilityViewSetModel {
+	required string tModel = 1;
+}

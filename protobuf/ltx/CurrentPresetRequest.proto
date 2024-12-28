@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message CurrentPresetRequest {
+	optional bool requestPresetData = 1;
+	optional bool dummyField = 2;
+}

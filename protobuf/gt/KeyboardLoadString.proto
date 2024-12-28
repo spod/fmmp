@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message KeyboardLoadString {
+	required string loadString = 1;
+}

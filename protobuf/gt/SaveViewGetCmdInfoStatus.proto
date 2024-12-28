@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SaveViewGetCmdInfoStatus {
+	required string cmdInfo = 1;
+}

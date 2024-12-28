@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message PresetJSONMessage {
+	required string data = 1;
+	required int32 slotIndex = 2;
+}

@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message EncoderPress {
+	required bool pressed = 1;
+}

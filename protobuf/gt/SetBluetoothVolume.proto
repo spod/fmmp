@@ -1,0 +1,10 @@
+package fendermessage.gt;
+enum VolumeOption {
+	HIGH = 0;
+	MID = 1;
+	LOW = 2;
+	MASTER = 3;
+}
+message SetBluetoothVolume {
+	required .fendermessage.gt.VolumeOption volumeOption = 1;
+}

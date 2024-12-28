@@ -1,0 +1,7 @@
+package fendermessage.ltx;
+message SavePresetAsRequest {
+	optional uint32 presetIndex = 1;
+	optional bytes compressedPresetJson = 2;
+	optional bool isLoadPreset = 3;
+	optional string presetName = 4;
+}

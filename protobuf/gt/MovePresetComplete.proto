@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message MovePresetComplete {
+	required bool isComplete = 1;
+}

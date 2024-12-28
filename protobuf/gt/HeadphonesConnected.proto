@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message HeadphonesConnected {
+	required bool isConnected = 1;
+}

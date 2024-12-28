@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message KeyboardSkipToNextCharSet {
+	required bool skip = 1;
+}

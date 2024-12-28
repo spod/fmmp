@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message ClearPresetStatus {
+	optional uint32 presetIndex = 1;
+	optional bool dummyField = 2;
+}

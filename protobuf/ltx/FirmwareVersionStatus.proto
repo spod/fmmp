@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message FirmwareVersionStatus {
+	optional string version = 1;
+}

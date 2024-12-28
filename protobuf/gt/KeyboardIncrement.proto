@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message KeyboardIncrement {
+	required int32 ticks = 1;
+}

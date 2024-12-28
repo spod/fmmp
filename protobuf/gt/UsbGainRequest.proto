@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message UsbGainRequest {
+	optional float valueDB = 1;
+}

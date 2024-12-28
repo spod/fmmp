@@ -1,0 +1,8 @@
+package fendermessage.gt;
+enum FootswitchVersion {
+	MGT4 = 0;
+	MGT7 = 1;
+}
+message FootswitchVersionSwitch {
+	required .fendermessage.gt.FootswitchVersion footswitchVersion = 1;
+}

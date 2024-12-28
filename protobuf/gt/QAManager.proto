@@ -1,0 +1,12 @@
+package fendermessage.gt;
+message QAStatus {
+	required uint32 qa1 = 1 [default = 1];
+	required uint32 qa2 = 2 [default = 1];
+	required uint32 qa3 = 3 [default = 1];
+}
+message QAManagerSync {
+}
+message QAManagerSetQA {
+	required uint32 qaSlot = 1 [default = 1];
+	required uint32 presetSlot = 2 [default = 1];
+}

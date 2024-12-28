@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SetGlobalFxBypass {
+	required bool doBypass = 1;
+}

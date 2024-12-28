@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message ReplaceNodeStatus {
+	optional string nodeIdToReplace = 1;
+	optional string fenderIdToReplaceWith = 2;
+}

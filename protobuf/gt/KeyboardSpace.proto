@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message KeyboardSpace {
+	required bool space = 1;
+}

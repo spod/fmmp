@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message MasterVolumeNotDBStatus {
+	required float value = 1;
+}

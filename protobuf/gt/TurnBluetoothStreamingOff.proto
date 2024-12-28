@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message TurnBluetoothStreamingOff {
+	required bool flag = 1;
+}

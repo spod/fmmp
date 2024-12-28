@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message GetDspUnitParameter {
+	required string nodeId = 1;
+	required string parameterId = 2;
+}

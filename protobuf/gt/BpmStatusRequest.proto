@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message BpmStatusRequest {
+	required bool request = 1;
+}

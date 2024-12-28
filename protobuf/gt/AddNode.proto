@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message AddNode {
+	required string fenderIdToAdd = 1;
+}

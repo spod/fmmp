@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message SwapPresetRequest {
+	optional uint32 firstIndex = 1;
+	optional uint32 secondIndex = 2;
+}

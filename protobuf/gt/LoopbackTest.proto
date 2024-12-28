@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message LoopbackTest {
+	required string data = 1;
+}

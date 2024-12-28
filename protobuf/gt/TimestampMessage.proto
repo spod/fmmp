@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message TimestampMessage {
+	required int32 seconds = 1;
+	required int32 nanoseconds = 2;
+}

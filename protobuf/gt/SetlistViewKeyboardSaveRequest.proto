@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SetlistViewKeyboardSaveRequest {
+	required bool request = 1;
+}

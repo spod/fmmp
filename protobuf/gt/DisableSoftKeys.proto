@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message DisableSoftKeys {
+	required bool disable = 1;
+}

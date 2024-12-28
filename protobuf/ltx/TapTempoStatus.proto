@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message TapTempoStatus {
+	optional bool dummyField = 1;
+	optional uint32 bpm = 2;
+}

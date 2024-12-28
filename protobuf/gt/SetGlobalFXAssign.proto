@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SetGlobalFXAssign {
+	required string assign = 1;
+}

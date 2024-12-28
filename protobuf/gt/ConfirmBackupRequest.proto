@@ -1,0 +1,5 @@
+package fendermessage.gt;
+import "gt/BackupRequest.proto";
+message ConfirmBackupRequest {
+	required .fendermessage.gt.Content content = 1;
+}

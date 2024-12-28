@@ -1,0 +1,11 @@
+package fendermessage.gt;
+message FileTransferBegin {
+	enum FileType {
+		JSON = 0;
+		BINARY = 1;
+	}
+	required int32 id = 1;
+	required int32 numPackets = 2;
+	required int32 numBytes = 3;
+	required .fendermessage.gt.FileTransferBegin.FileType fileType = 4;
+}

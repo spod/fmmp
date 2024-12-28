@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message Exp1ConfigExpressionModeHeel {
+	required float value = 1;
+}

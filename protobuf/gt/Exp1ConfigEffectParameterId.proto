@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message Exp1ConfigEffectParameterId {
+	required string value = 1;
+}

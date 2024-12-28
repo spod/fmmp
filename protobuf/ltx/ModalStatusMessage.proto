@@ -1,0 +1,24 @@
+package fendermessage.ltx;
+enum ModalContext {
+	SYNC_BEGIN = 0;
+	SYNC_END = 1;
+	BACKUP_BEGIN = 2;
+	BACKUP_END = 3;
+	RESTORE_BEGIN = 4;
+	RESTORE_END = 5;
+	TUNER_ENABLE = 6;
+	TUNER_DISABLE = 7;
+	FACTORY_RESTORE_BEGIN = 8;
+	FACTORY_RESTORE_END = 9;
+	TONE_BUSY_BEGIN = 10;
+	TONE_BUSY_END = 11;
+}
+enum ModalState {
+	OK = 0;
+	FAIL = 1;
+}
+message ModalStatusMessage {
+	optional .fendermessage.ltx.ModalContext context = 1;
+	optional .fendermessage.ltx.ModalState state = 2;
+	optional bool dummyField = 3;
+}

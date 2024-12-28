@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message ToneSync {
+	optional bool hackSoItGens = 1;
+}

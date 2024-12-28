@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message SetAttenuatorRequest {
+	optional bool turnOnAttenuator = 1;
+	optional bool dummyField = 2;
+}

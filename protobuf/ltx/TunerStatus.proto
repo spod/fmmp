@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message TunerStatus {
+	optional bool dummyField = 1;
+	optional bool active = 2;
+}

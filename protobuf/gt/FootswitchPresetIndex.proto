@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message FootswitchPresetId {
+	required int32 presetId = 1;
+}

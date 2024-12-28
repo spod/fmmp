@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message PresetNamesStatus {
+	repeated string presetName = 1;
+}

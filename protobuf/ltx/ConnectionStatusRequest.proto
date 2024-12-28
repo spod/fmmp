@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message ConnectionStatusRequest {
+	optional bool dummyField = 1;
+}

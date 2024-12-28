@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message ProcessorPercentageAvailableStatus {
+	required float percent = 1;
+}

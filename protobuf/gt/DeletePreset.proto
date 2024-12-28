@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message DeletePreset {
+	required int32 slot = 1;
+}

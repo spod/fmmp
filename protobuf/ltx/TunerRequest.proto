@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message TunerRequest {
+	optional bool dummyField = 1;
+}

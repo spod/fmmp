@@ -1,0 +1,19 @@
+package fendermessage.gt;
+message SSIDEntry {
+	enum Protocol {
+		NONE = 0;
+		WEP = 1;
+		WPA_WPA2_PSK = 2;
+		EAP_802_1X = 3;
+	}
+	required string ssid = 1;
+	required .fendermessage.gt.SSIDEntry.Protocol protocol = 2;
+	required bool inSupplicant = 3;
+	required int32 signalStrength = 4;
+}
+message NetworkStatus {
+	required string connectionStatus = 1;
+	optional string connectedSSID = 2;
+	optional string connectedIP = 3;
+	repeated .fendermessage.gt.SSIDEntry availableNetworks = 4;
+}

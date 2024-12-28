@@ -1,0 +1,10 @@
+package fendermessage.gt;
+enum Content {
+	BACKUP_TEST = 0;
+	BACKUP_PRESETS = 1;
+	BACKUP_SETTINGS = 2;
+	BACKUP_ALL = 3;
+}
+message BackupRequest {
+	required .fendermessage.gt.Content content = 1;
+}

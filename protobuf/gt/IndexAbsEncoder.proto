@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message IndexAbsEncoder {
+	required int32 index = 1;
+	required int32 value = 2;
+}

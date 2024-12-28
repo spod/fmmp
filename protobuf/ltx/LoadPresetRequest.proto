@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message LoadPresetRequest {
+	optional uint32 newPresetIndex = 1;
+	optional bool dummyField = 2;
+}

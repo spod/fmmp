@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message KeyboardBackspace {
+	required bool back = 1;
+}

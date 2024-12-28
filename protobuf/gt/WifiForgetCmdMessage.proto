@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message WifiForgetCmdMessage {
+	required string ssidToForget = 1;
+}

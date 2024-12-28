@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message GlobalFXAssignStatusMgt7 {
+	required string assign = 1;
+}

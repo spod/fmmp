@@ -1,0 +1,10 @@
+package backup.ltx;
+message PresetData {
+	optional uint32 presetIndex = 1;
+	optional string presetName = 2;
+	optional bytes compressedPresetJson = 3;
+}
+message Backup {
+	repeated .backup.ltx.PresetData presets = 1;
+	optional float usbAudioGain = 2;
+}

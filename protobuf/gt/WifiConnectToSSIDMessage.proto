@@ -1,0 +1,12 @@
+package fendermessage.gt;
+message WifiConnectToSSIDMessage {
+	enum Protocol {
+		NONE = 0;
+		WEP = 1;
+		WPA_WPA2_PSK = 2;
+		EAP_802_1X = 3;
+	}
+	required string ssidToConnect = 1;
+	required .fendermessage.gt.WifiConnectToSSIDMessage.Protocol protocol = 2;
+	optional string password = 3;
+}

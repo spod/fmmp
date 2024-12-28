@@ -1,0 +1,9 @@
+package fendermessage.gt;
+enum SaveViewMode {
+	SAVE_QUERY_MODE = 0;
+	SAVE_AS_MODE = 1;
+	EDIT_PRESET_NAME_MODE = 2;
+}
+message SaveViewSelectViewMode {
+	required .fendermessage.gt.SaveViewMode mode = 1 [default = SAVE_QUERY_MODE];
+}

@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SetlistManagerDeleteFromFavorites {
+	required uint32 presetSlot = 1;
+}

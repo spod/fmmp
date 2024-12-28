@@ -1,0 +1,13 @@
+package fendermessage.gt;
+message BackupRestoreCompleteStatus {
+	enum Status {
+		SUCCESS = 0;
+		FAIL = 1;
+		DIRTY_CURR_PRESET = 2;
+		COMPRESS_FAIL = 3;
+		DECOMPRESS_FAIL = 4;
+		INCORRECT_CRC = 5;
+		ABORT = 6;
+	}
+	required .fendermessage.gt.BackupRestoreCompleteStatus.Status success = 1;
+}

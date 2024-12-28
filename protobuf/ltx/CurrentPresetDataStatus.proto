@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message CurrentPresetDataStatus {
+	optional bytes compressedPresetJson = 1;
+}

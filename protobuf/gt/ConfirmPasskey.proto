@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message ConfirmPasskey {
+	required string passkey = 1;
+}

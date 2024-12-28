@@ -1,0 +1,18 @@
+package fendermessage.gt;
+enum GlobalEqOptions {
+	GLOBAL_EQ_OFF = 0;
+	GLOBAL_EQ_BRIGHT_CUT = 1;
+	GLOBAL_EQ_BRIGHT_BOOST_0 = 2;
+	GLOBAL_EQ_BRIGHT_BOOST_1 = 3;
+	GLOBAL_EQ_BRIGHT_BOOST_A = 4;
+	GLOBAL_EQ_BRIGHT_BOOST_B = 5;
+	GLOBAL_EQ_LOW_CUT_1 = 6;
+	GLOBAL_EQ_LOW_CUT_2 = 7;
+	GLOBAL_EQ_BRIGHT_BOOST_3 = 8;
+	GLOBAL_EQ_BRIGHT_CUT_3 = 9;
+	GLOBAL_EQ_BRIGHT_BOOST_4 = 10;
+	GLOBAL_EQ_BRIGHT_CUT_4 = 11;
+}
+message GlobalEQViewSetGlobalEQ {
+	required .fendermessage.gt.GlobalEqOptions mode = 1 [default = GLOBAL_EQ_OFF];
+}

@@ -1,0 +1,6 @@
+package fendermessage.gt;
+message ReplaceNode {
+	required string nodeIdToReplace = 1;
+	required string fenderIdToReplaceWith = 2;
+	optional string settingsArchive = 3 [default = ];
+}

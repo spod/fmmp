@@ -1,0 +1,24 @@
+package fendermessage.gt;
+enum LooperCommands {
+	NULL_COMMAND = 0;
+	RECORD_OVERDUB = 1;
+	PLAY_STOP = 2;
+	UNDO = 3;
+	LOOPER_RESET = 4;
+	STOP_COMMAND = 5;
+}
+enum LooperIntrinsicCommands {
+	NULL_INTRINSIC_COMMAND = 0;
+	PLAY = 1;
+	STOP = 2;
+	RECORD = 3;
+	OVERDUB = 4;
+	UNDO_RECORD = 5;
+	UNDO_OVERDUB = 6;
+	RESET = 7;
+	RESTART = 8;
+	SET_LOOP_LENGTH = 9;
+}
+message LooperCommand {
+	required .fendermessage.gt.LooperCommands command = 1;
+}

@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message BtStatusView {
+	required bool btOn = 1;
+}

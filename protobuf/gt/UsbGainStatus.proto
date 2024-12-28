@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message UsbGainStatus {
+	required float valueDB = 1;
+}

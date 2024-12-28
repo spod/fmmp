@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message BtStreamingStatus {
+	required bool status = 1;
+}

@@ -1,0 +1,10 @@
+package fendermessage.gt;
+message EnableMessageBox {
+	enum Options {
+		YES_NO = 0;
+		OKAY_CANCEL = 1;
+		NONE = 2;
+	}
+	required bool enable = 1;
+	required .fendermessage.gt.EnableMessageBox.Options option = 2;
+}

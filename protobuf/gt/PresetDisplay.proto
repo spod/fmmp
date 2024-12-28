@@ -1,0 +1,10 @@
+package fendermessage.gt;
+message PresetDisplay {
+	required int32 slot = 1;
+	required string displayName = 2;
+	optional int32 setlistIndex = 3;
+}
+message PresetDisplaySaveCandidate {
+	required int32 slot = 1;
+	required string displayName = 2;
+}

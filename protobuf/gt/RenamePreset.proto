@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message RenamePreset {
+	required int32 slot = 1;
+	required string newPresetName = 2;
+}

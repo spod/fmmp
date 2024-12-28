@@ -1,0 +1,8 @@
+package fendermessage.gt;
+message SystemStatus {
+	required string address = 1;
+	required string firmwareVersion = 2;
+	required string wifiState = 3;
+	required string btName = 4;
+	optional string productId = 5;
+}

@@ -1,0 +1,13 @@
+package fendermessage.gt;
+enum LooperState {
+	STOPPED_CLEAN = 0;
+	STOPPED_DIRTY = 1;
+	RECORDING = 2;
+	OVERDUBBING = 3;
+	PLAYING = 4;
+	NUM_LOOPER_STATES = 5;
+}
+message LooperStatus {
+	required .fendermessage.gt.LooperState state = 1;
+	required int32 trackCount = 2;
+}

@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message UtilityViewSetConfirmLine1 {
+	required string text = 1;
+}

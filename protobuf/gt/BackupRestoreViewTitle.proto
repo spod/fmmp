@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message BackupRestoreViewTitle {
+	required string title1 = 1;
+	required string title2 = 2;
+}

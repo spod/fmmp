@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message Exp1ConfigExpressionModeToe {
+	required float value = 1;
+}

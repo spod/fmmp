@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message KeyboardSaveResponse {
+	required string text = 1;
+}

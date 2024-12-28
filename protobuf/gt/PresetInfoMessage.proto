@@ -1,0 +1,13 @@
+package fendermessage.gt;
+message PresetInfoMessage {
+	required int32 slotNumber = 1;
+	required string displayName = 2;
+	optional string preset_id = 3;
+	optional string author = 4;
+	optional int64 timestamp = 5;
+	optional int64 created_at = 6;
+	optional string product_id = 7;
+	optional bool is_factory_default = 8;
+	optional bool isEmpty = 9;
+	optional string source_id = 10;
+}

@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message WifiDisconnectCmdMessage {
+	optional bool hackSoItGens = 1;
+}

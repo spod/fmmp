@@ -1,0 +1,30 @@
+package fendermessage.gt;
+import "gt/IndexPot.proto";
+import "gt/IndexButton.proto";
+message FootswitchBusEvent {
+	enum ProductID {
+		FTSW_ID_ULT1 = 12;
+		FTSW_ID_ULT4 = 8;
+		FTSW_ID_SIMPLE = 9;
+		FTSW_ID_SWR_2BTN = 11;
+		FTSW_ID_SM1500 = 10;
+	}
+	enum FootswitchBusState {
+		CONNECTED = 1;
+		PKT_ACK_TMO = 2;
+	}
+	message CommStatus {
+		required int32 collisionCount = 1;
+		required int32 packetRxCount = 2;
+		required int32 packetTxCount = 3;
+	}
+	message ConnectionStatus {
+		required .fendermessage.gt.FootswitchBusEvent.FootswitchBusState ftswBusState = 1;
+		optional int32 Version = 2;
+	}
+	required .fendermessage.gt.FootswitchBusEvent.ProductID ftswProductIdMsg = 1;
+	optional .fendermessage.gt.IndexButton ftswBtnMsg = 2;
+	optional .fendermessage.gt.IndexPot ftswPotMsg = 3;
+	optional .fendermessage.gt.FootswitchBusEvent.CommStatus ftswCommStatMsg = 4;
+	optional .fendermessage.gt.FootswitchBusEvent.ConnectionStatus ftswVerConnectMsg = 5;
+}

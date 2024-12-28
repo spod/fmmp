@@ -1,0 +1,6 @@
+package fendermessage.ltx;
+import "ltx/EqPreset.proto";
+message EqStatus {
+	optional bool dummyField = 1;
+	optional .EqPreset eqPreset = 2;
+}

@@ -1,0 +1,28 @@
+package fendermessage.gt;
+enum RenderMode {
+	PE_VIEW = 0;
+	SAVE_VIEW = 1;
+	UTILITY_VIEW = 2;
+	TUNER_VIEW = 3;
+	WIRELESS_VIEW = 4;
+	EXP1_VIEW = 5;
+	SETLIST_VIEW = 6;
+	QA_VIEW = 7;
+	CLOUD_PRESET_VIEW = 8;
+	SCAN_FAIL_VIEW = 9;
+	BT_PASSKEY_VIEW = 10;
+	USB_GAIN_VIEW = 11;
+	ADVANCED_TUNER_VIEW = 12;
+	BACKUP_RESTORE_VIEW = 13;
+	TAP_TEMPO_VIEW = 14;
+	GLOBAL_FX_ASSIGN_VIEW = 15;
+	KEYBOARD_VIEW = 16;
+	MESSAGE_BOX_VIEW = 17;
+	NUM_VIEWS = 18;
+}
+message SetRenderMode {
+	required .fendermessage.gt.RenderMode renderMode = 1 [default = PE_VIEW];
+}
+message SetRenderingActive {
+	required bool active = 1 [default = false];
+}

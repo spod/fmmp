@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SetProgressBarTicks {
+	required int32 ticks = 1;
+}

@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message AttenuatorStatus {
+	optional bool attenuatorIsOn = 1;
+	optional bool dummyField = 2;
+}

@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SetDownloadServer {
+	required string serverName = 1;
+}

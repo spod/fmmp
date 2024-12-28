@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message ProductIdentificationStatus {
+	optional string id = 1;
+}

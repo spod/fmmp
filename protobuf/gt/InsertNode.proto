@@ -1,0 +1,9 @@
+package fendermessage.gt;
+message InsertNodePre {
+	required string nodeIdToInsertPre = 1;
+	required string fenderIdToInsert = 2;
+}
+message InsertNodePost {
+	required string nodeIdToInsertPost = 1;
+	required string fenderIdToInsert = 2;
+}

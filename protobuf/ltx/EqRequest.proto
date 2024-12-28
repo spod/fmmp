@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message EqRequest {
+	optional bool dummyField = 1;
+}

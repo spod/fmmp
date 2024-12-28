@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message MoveNode {
+	required string nodeIdToMove = 1;
+	required string nodeIdInsertLocation = 2;
+}

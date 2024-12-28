@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SetGlobalEQ {
+	required string preset = 1;
+}

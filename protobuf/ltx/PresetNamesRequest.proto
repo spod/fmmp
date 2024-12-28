@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message PresetNamesRequest {
+	optional bool dummyField = 1;
+}

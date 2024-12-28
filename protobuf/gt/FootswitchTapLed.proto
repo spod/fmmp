@@ -1,0 +1,6 @@
+package fendermessage.gt;
+message FootswitchTapLed {
+	required int32 ledMask = 1;
+	required int32 blinkOnTimeMs = 2;
+	required int32 blinkOffTimeMs = 3;
+}

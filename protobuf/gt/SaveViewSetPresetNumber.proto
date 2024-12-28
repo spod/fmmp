@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SaveViewSetPresetNumber {
+	required int32 slot = 1;
+}

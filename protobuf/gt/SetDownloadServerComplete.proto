@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SetDownloadServerComplete {
+	required bool complete = 1;
+}

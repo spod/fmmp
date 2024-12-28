@@ -1,0 +1,12 @@
+package fendermessage.gt;
+enum CharacterType {
+	ALL = 0;
+	LETTER_LOWER = 1;
+	LETTER_UPPER = 2;
+	NUMBERS = 3;
+	SYMBOLS = 4;
+	NUM_TYPES = 5;
+}
+message KeyboardSetCharacterType {
+	required .fendermessage.gt.CharacterType charType = 1 [default = ALL];
+}

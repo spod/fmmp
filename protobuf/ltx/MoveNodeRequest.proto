@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message MoveNodeRequest {
+	optional string nodeIdToMove = 1;
+	optional string nodeIdInsertLocation = 2;
+}

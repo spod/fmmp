@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message RawJSON {
+	required string data = 1;
+}

@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message LoadPreset {
+	required string presetId = 1;
+}

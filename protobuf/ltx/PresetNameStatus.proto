@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message PresetNameStatus {
+	optional uint32 presetIndex = 1;
+	optional string presetName = 2;
+}

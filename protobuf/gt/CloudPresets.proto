@@ -1,0 +1,12 @@
+package fendermessage.gt;
+message GetEndpoints {
+}
+message GetPresetList {
+	required string endpointUrl = 1 [default = ];
+}
+message ProvisionAmp {
+	required string token = 1 [default = ];
+}
+message CloudPresetStatus {
+	required bool cloudPreset = 1 [default = false];
+}

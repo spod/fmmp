@@ -1,0 +1,5 @@
+package fendermessage.ltx;
+message ConnectionStatus {
+	optional bool isConnected = 1;
+	optional bool dummyField = 2;
+}

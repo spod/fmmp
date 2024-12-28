@@ -1,0 +1,17 @@
+package fendermessage.gt;
+message Exp1Config {
+	required string pedalModeSource = 1;
+	required float volumeModeHeel = 2;
+	required float volumeModeToe = 3;
+	required bool volumeModeBehavior = 10;
+	required string expressionModeBehavior = 11;
+	required string effectNodeId = 12;
+	required string effectFenderId = 13;
+	required string effectParameterId = 14;
+	required float expressionModeHeel = 15;
+	required float expressionModeToe = 16;
+	required bool liveMode = 17;
+	required bool bypassEffectWhenVolumeMode = 18;
+	required bool volumeSwitchRevert = 19;
+	required string defaultPedalState = 20;
+}

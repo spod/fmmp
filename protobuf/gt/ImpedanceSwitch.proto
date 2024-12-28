@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message ImpedanceSwitch {
+	required bool state = 1;
+}

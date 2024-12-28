@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message FileTransferEnd {
+	required int32 id = 1;
+	required int32 crcCheck = 2;
+}

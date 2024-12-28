@@ -1,0 +1,6 @@
+package fendermessage.gt;
+message LoadPresetIfValid {
+	required int32 slot = 1;
+	optional bool sendToTone = 2;
+	optional int32 setlistIndex = 3;
+}

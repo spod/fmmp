@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message BackupRestoreEnableStatus {
+	required bool enable = 1;
+}

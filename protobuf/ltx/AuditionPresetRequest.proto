@@ -1,0 +1,4 @@
+package fendermessage.ltx;
+message AuditionPresetRequest {
+	optional bytes compressedPresetJson = 1;
+}

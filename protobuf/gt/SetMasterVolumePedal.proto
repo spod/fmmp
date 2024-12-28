@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message SetMasterVolumePedal {
+	required float value = 1;
+}

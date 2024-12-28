@@ -1,0 +1,10 @@
+package fendermessage.gt;
+message RestoreRequest {
+	enum Content {
+		RESTORE_TEST = 0;
+		RESTORE_PRESETS = 1;
+		RESTORE_SETTINGS = 2;
+		RESTORE_ALL = 3;
+	}
+	required .fendermessage.gt.RestoreRequest.Content content = 1;
+}

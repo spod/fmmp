@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message SaveCurrentPresetTo {
+	required int32 slot = 1;
+	optional int64 timestamp = 2;
+}

@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message UtilityViewAddLineOutOptionsMenu {
+	required bool cmd = 1;
+}

@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message PresetCount {
+	required sint32 count = 1;
+}

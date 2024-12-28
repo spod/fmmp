@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message GlobalBpmModeStatus {
+	required bool globalBpmOn = 1;
+}

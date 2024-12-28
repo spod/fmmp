@@ -1,0 +1,26 @@
+package fendermessage.gt;
+message FootswitchLedCmd {
+	enum FootswitchLedIndex {
+		FTSW_LED_ALL_OFF = 0;
+		FTSW_LED_MODE_1 = 1;
+		FTSW_LED_MODE_2 = 2;
+		FTSW_LED_MODE_3 = 3;
+		FTSW_LED_BTN_1 = 4;
+		FTSW_LED_BTN_2 = 5;
+		FTSW_LED_BTN_3 = 6;
+		FTSW_LED_BTN_4 = 7;
+		FTSW_LED_CENTER = 8;
+	}
+	enum FootswitchLedOp {
+		FTSW_CLEAR_LED_CMD = 0;
+		FTSW_SET_LED_CMD = 1;
+		FTSW_BLINK_LED_CMD = 2;
+		FTSW_TEMPO_LED_CMD = 3;
+	}
+	required .fendermessage.gt.FootswitchLedCmd.FootswitchLedOp cmdOp = 1;
+	required .fendermessage.gt.FootswitchLedCmd.FootswitchLedIndex index = 2;
+	optional int32 blinkInterval = 3;
+	optional int32 blinkFlags = 4;
+}
+message FootswitchClearAllLeds {
+}

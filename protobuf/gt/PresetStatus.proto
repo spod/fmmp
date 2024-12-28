@@ -1,0 +1,6 @@
+package fendermessage.gt;
+message PresetStatus {
+	required uint32 slot = 1;
+	required string displayName = 2;
+	optional bool isEmpty = 3;
+}

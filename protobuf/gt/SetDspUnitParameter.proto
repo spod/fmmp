@@ -1,0 +1,9 @@
+package fendermessage.gt;
+message SetDspUnitParameter {
+	required string nodeId = 1;
+	required string parameterId = 2;
+	optional float floatParameter = 3;
+	optional string stringParameter = 4;
+	optional sint32 sint32Parameter = 5;
+	optional bool boolParameter = 6;
+}

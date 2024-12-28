@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message GlobalFXAssignSyncMgt7 {
+	required bool sync = 1;
+}

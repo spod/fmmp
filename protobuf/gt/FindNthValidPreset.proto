@@ -1,0 +1,5 @@
+package fendermessage.gt;
+message FindNthValidPreset {
+	required int32 slot = 1;
+	required int32 ticks = 2;
+}

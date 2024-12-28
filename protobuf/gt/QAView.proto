@@ -1,0 +1,14 @@
+package fendermessage.gt;
+message QAViewAddMenuItem {
+	required string displayText = 1 [default = ];
+}
+message QAViewAddMenuItemOneBeforeEnd {
+	required string displayText = 1 [default = ];
+}
+message QAViewSetMenuIndex {
+	required uint32 index = 1 [default = 0];
+}
+message QAViewClearAllMenuItems {
+}
+message QAViewClearTitle {
+}

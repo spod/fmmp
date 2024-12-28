@@ -1,0 +1,4 @@
+package fendermessage.gt;
+message UsbGainSync {
+	required float valueDB = 1;
+}
