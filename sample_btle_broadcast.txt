@@ -1,0 +1,59 @@
+Frame 3198: 53 bytes on wire (424 bits), 53 bytes captured (424 bits)
+    Encapsulation type: Bluetooth Low Energy Link Layer RF (161)
+    Arrival Time: Dec 27, 2024 23:16:40.407454000 PST
+    UTC Arrival Time: Dec 28, 2024 07:16:40.407454000 UTC
+    Epoch Arrival Time: 1735370200.407454000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.024345000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 82.580667000 seconds]
+    Frame Number: 3198
+    Frame Length: 53 bytes (424 bits)
+    Capture Length: 53 bytes (424 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: bluetooth:btle_rf:btle:btcommon]
+Bluetooth
+    [Source: GPElectronic_2b:bb:1b (84:17:15:2b:bb:1b)]
+    [Destination: Broadcast (ff:ff:ff:ff:ff:ff)]
+Bluetooth Low Energy RF Info
+    RF Channel: 12, 2426 MHz, Advertising channel 38
+    Unused signed byte: 0
+    Unused signed byte: 0
+    Unused unsigned byte: 0
+    Unused word: 0x00000000
+    Flags: 0x0001
+Bluetooth Low Energy Link Layer
+    Access Address: 0x8e89bed6
+    Packet Header: 0x2220 (PDU Type: ADV_IND, ChSel: #2, TxAdd: Public)
+        .... 0000 = PDU Type: 0x0 ADV_IND
+        ...0 .... = Reserved: 0
+        ..1. .... = Channel Selection Algorithm: #2
+        .0.. .... = Tx Address: Public
+        0... .... = Reserved: 0
+        Length: 34
+    Advertising Address: GPElectronic_2b:bb:1b (84:17:15:2b:bb:1b)
+    Advertising Data
+        Flags
+            Length: 2
+            Type: Flags (0x01)
+            000. .... = Reserved: 0x0
+            ...0 .... = Simultaneous LE and BR/EDR to Same Device Capable (Host): false (0x0)
+            .... 0... = Simultaneous LE and BR/EDR to Same Device Capable (Controller): false (0x0)
+            .... .0.. = BR/EDR Not Supported: false (0x0)
+            .... ..0. = LE General Discoverable Mode: false (0x0)
+            .... ...1 = LE Limited Discoverable Mode: true (0x1)
+        128-bit Service Class UUIDs
+            Length: 17
+            Type: 128-bit Service Class UUIDs (0x07)
+            Custom UUID: 90559580-b707-11ee-acb1-7b7e30f1af54 (Unknown)
+        Manufacturer Specific
+            Length: 6
+            Type: Manufacturer Specific (0xff)
+            Company ID: Fender Musical Instruments (0x0410)
+            Data: 6d6d70
+                [Expert Info (Note/Undecoded): Undecoded]
+                    [Undecoded]
+                    [Severity level: Note]
+                    [Group: Undecoded]
+    CRC: 0xa2ded4

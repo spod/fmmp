@@ -42,8 +42,21 @@ Full lsusb verbose output in [lsusb\_verbose.txt](./lsusb_verbose.txt)
 
 There are currently [no firmware updates available](https://fendercustomersupport.microsoftcrmportals.com/en-us/knowledgebase/article/KA-02267) so I'm not sure how doable it is to access anything else useful over USB currently.
 
+## Initial bluetooth sniffing
+I got [mikeryan/ice9-bluetooth-sniffer](https://github.com/mikeryan/ice9-bluetooth-sniffer) running with my [portapack-mayhem](https://github.com/portapack-mayhem) in hackrf mode.
+Traffic to/from a GP Electronics device looked interesting, on the [GP Electronics web site](https://gp.industries/brands/gp-electronics/) there is a picture of a device that appears to be the Mustang Micro Plus!
 
-## references
+Looking at the packet dissection in Wireshark there is also a reference to: `Fender Musical Instruments (0x0410)`, see [sample_btle_broadcast.txt](./sample_btle_broadcast.txt).
+
+## TODO
+- [ ] Capture more of the bluetooth traffic between the app on my phone and the MM+
+- [ ] Write a basic program to communicate with the MM+ over bluetooth/btle
+- [ ] Poke at the usb interface
+
+## References
 * https://medium.com/fender-engineering/c-desktop-application-architecture-for-digital-amplifier-connectivity-454da5c44026
 * https://github.com/brentmaxwell/LtAmp/blob/main/Docs/Protocol.md
 * https://www.presonussoftware.com/en_US/technology
+* https://gp.industries/brands/gp-electronics/
+* https://gov.fccid.io/XQW-MUMPPR6171
+* https://fccid.io/XQW-MUMPPR6171
